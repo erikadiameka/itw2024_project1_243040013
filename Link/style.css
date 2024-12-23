@@ -7,7 +7,6 @@
   scroll-behavior: smooth;
 }
 
-
 .header {
   position: fixed;
   margin-top: 0;
@@ -278,6 +277,7 @@ nav ul li a:hover {
   grid-row: 2;
   margin-left: 60px;
   text-align: justify;
+  color: white;
 }
 
 .about-image {
@@ -511,7 +511,7 @@ nav ul li a:hover {
 }
 
 .btn-primary {
-  background-color: #072468;
+  background-color: #3e63b8;
   padding: 10px 15px;
   border-radius: 3px;
   cursor: pointer;
@@ -582,204 +582,228 @@ footer p:nth-child(2) {
   padding: 20px;
 }
 
-
-
 /* ukuran layar paling kecil */
 @media screen and (max-width: 468px) {
-    /* home */
-    .home {
-        background: none;
-        background-color: #031540;
-    }
+  /* home */
+  .home {
+    background: none;
+    background-color: #031540;
+  }
 
-    .home-image {
-        border-radius: none;
-        border: none;
-        outline: none;
-        background: none;
-    }
+  .home-image {
+    border-radius: none;
+    border: none;
+    outline: none;
+    background: none;
+  }
 
-    .home-image img {
-        display: none;
-    }
+  .home-image img {
+    display: none;
+  }
 
-    .home-content {
-        margin-left: -100px;
-        text-align: left;
-    }
+  .home-content {
+    margin-left: -10px;
+    text-align: left;
+  }
 
-    .home-content h4{
-        font-size: 30px;
-        margin-left: -80px;
-    }
+  .home-content h4 {
+    font-size: 30px;
+    margin-left: -80px;
+  }
 
-    .home-content h1 {
-        margin-left: -80px;
-    }
+  .home-content h1 {
+    margin-left: -80px;
+  }
 
-    .home-content h3 {
-        margin-left: -80px;
-    }
+  .home-content h3 {
+    margin-left: -80px;
+  }
 
-    .home_sci {
-        margin-left: -80px;
-    }
+  .home_sci {
+    margin-left: -80px;
+    padding: 1px;
+  }
 
-    .home_sci a {
-        text-align: center;
-        margin-top: 10px;
-    }
+  .home_sci a {
+    text-align: center;
+    margin-top: 5px;
+    padding: 1px;
+  }
 
-    .btn {
-        text-align: center;
-        margin-left: -80px;
-    }
+  .err {
+    text-align: center;
+    margin-left: -50px;
+  }
 
-    .menu-toggle {
-        display: flex;
-        z-index: 10;
-    }
-    
-    /* navbar */
-    nav ul {
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 80px;
-        height: 40vh;
-        margin-top: 50px;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-        z-index: 9;
-        transform: translateX(100%);
-        transition: all 1s;
-        opacity: 0;
-    }
+  .profil {
+    padding: -10px;
+    margin: -70px;
+    height: -10px;
+    margin-bottom: 10px;
+  }
 
-    nav ul.slide {
-        opacity: 1;
-        transform: translateX(0);
-    } 
+  .menu-toggle {
+    display: flex;
+    z-index: 10;
+  }
 
-    /* home */
-    .home img {
-        width: 250px;
-    }
+  /* navbar */
+  nav ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 40vh;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9;
+    transform: translateX(100%);
+    transition: all 1s;
+    opacity: 0;
+  }
 
-    .home h1 {
-        font-size: 28px;
-    }
+  nav ul.slide {
+    opacity: 1;
+    transform: translateX(0);
+  }
 
-    .home p {
-        font-size: 17px;
-    } 
+  /* home */
+  .home img {
+    width: 250px;
+  }
 
-    /* about */
-    .about .grid {
-        display: flex;
-        flex-direction: column;
-    }
+  .home h1 {
+    font-size: 28px;
+  }
 
-    .about-me {
-        font-size: 35px;
-    }
+  .home p {
+    font-size: 17px;
+  }
 
-    .about-image img {
-        /* margin-top: -600px; */
-        padding: -10;
-    } 
+  /* about */
+  .about .grid {
+    display: flex;
+    flex-direction: column;
+  }
 
-    /* skills */
-    .Skill {
-        height: auto;
-        padding: 20px;
-    }
+  .about-me {
+    font-size: 35px;
+  }
 
-    .Text-Skill {
-        text-shadow: none;
-        color: black;
-        margin-top: 40px;
-        font-size: 50px;
-    }
+  .about-text {
+    margin: 10px;
+  }
 
-    .icon-container {
-        flex-direction: column;
-        align-items: center;
-    }
+  .about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
 
-    .icon {
-        margin: 10px 0;
-        text-align: center;
-        padding: 20px;
-    }
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+  }
 
-    /* projects */
-    .project .container {
-        width: 95%;
-        flex-direction: column;
-    }
+  /* skills */
+  .Skill {
+    height: auto;
+    padding: 20px;
+  }
 
-    .judul-project {
-        margin-top: -50px;
-        font-size: 35px;
-    }
+  .Text-Skill {
+    text-shadow: none;
+    color: black;
+    margin-top: 40px;
+    font-size: 50px;
+  }
 
-    .project .card {
-        width: 95%;
-        margin-right: 60px;
-    }
+  .icon-container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .project img {
-        width: 235px;
-        max-width: 235px;
-    }
+  .icon {
+    margin: 10px 0;
+    text-align: center;
+    padding: 20px;
+  }
 
-    .project .isi-card h4 {
-        font-size: 22px;
-        margin-top: 20px;
-    }
+  /* projects */
+  .project .container {
+    width: 95%;
+    flex-direction: column;
+  }
 
-    .project .isi-card p {
-        font-size: 16px;
-        line-height: 1.9;
-    }
+  .judul-project {
+    margin-top: -50px;
+    font-size: 35px;
+  }
 
-    .project .buttonproject{
-        /* margin-right: 10px; */
-        margin-top: 280px;
-    } 
+  .project .card {
+    width: 95%;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column; /* Gambar di atas, teks di bawah */
+    align-items: center;
+    padding: 20px; /* Beri ruang dalam */
+    box-sizing: border-box;
+  }
 
-    /* contact */
-    .contact-text {
-        padding: 20px;
-    }
-    
-    .contact-text h2 {
-        font-size: 45px;
-    }
-    
-    .contact-me {
-        flex-direction: column;
-    }
-    
-    .contact-from {
-         margin-top: 20px;
-    }
+  .project img {
+    width: 235px;
+    max-width: 100%;
+    max-height: 150px; /* Atur tinggi maksimal agar tidak terlalu panjang */
+    object-fit: cover;
+    margin-bottom: 15px; /* jarak antara gambar dan teks */
+  }
 
-    .btn-primary {
-        padding: 5px 10px;
-        justify-content: center;
-        margin-left: 30px;
-    }
+  .project .isi-card h4 {
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+  }
 
-    /* footer section */
-    .footer .container {
-        flex-direction: column;
-    }
+  .project .isi-card p {
+    font-size: 16px;
+    line-height: 1.6; /*  tidak terlalu renggang */
+    text-align: center; /* Rata tengah teks */
+  }
+
+  .project .buttonproject {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* contact */
+  .contact-text {
+    padding: 20px;
+  }
+
+  .contact-text h2 {
+    font-size: 45px;
+  }
+
+  .contact-me {
+    flex-direction: column;
+  }
+
+  .contact-from {
+    margin-top: 20px;
+  }
+
+  .btn-primary {
+    padding: 5px 10px;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+  /* footer section */
+  .footer .container {
+    flex-direction: column;
+  }
 }
-
-
-
-
-
