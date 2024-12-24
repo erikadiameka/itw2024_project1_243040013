@@ -595,6 +595,7 @@ footer p:nth-child(2) {
     border: none;
     outline: none;
     background: none;
+    position: relative;
   }
 
   .home-image img {
@@ -632,7 +633,7 @@ footer p:nth-child(2) {
 
   .err {
     text-align: center;
-    margin-left: -50px;
+    /* margin-left: -200px; */
   }
 
   .profil {
@@ -694,6 +695,7 @@ footer p:nth-child(2) {
 
   .about-text {
     margin: 10px;
+    font-size: 15px;
   }
 
   .about-image {
@@ -705,7 +707,8 @@ footer p:nth-child(2) {
 
   .about-image img {
     max-width: 100%;
-    height: auto;
+    height: 210px;
+    width: 200px;
     margin: 0;
   }
 
@@ -757,7 +760,7 @@ footer p:nth-child(2) {
   .project img {
     width: 235px;
     max-width: 100%;
-    max-height: 150px; /* Atur tinggi maksimal agar tidak terlalu panjang */
+    max-height: 150px; /* Atur tinggi agar tidak terlalu panjang */
     object-fit: cover;
     margin-bottom: 15px; /* jarak antara gambar dan teks */
   }
@@ -786,6 +789,7 @@ footer p:nth-child(2) {
 
   .contact-text h2 {
     font-size: 45px;
+    padding: 2px;
   }
 
   .contact-me {
